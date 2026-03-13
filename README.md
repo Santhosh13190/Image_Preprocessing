@@ -3,16 +3,6 @@
 This repository contains a simple image preprocessing pipeline that reads raw images from `dataset/`, applies resizing + normalization, performs basic augmentations (flip, rotate), and writes results into `processed_dataset/`.
 
 ---
-
-## 🧩 Architecture (Diagram)
-
-```mermaid
-flowchart LR
-  A[dataset/ (raw images)] -->|read| B[preprocess_dataset.py]
-  B -->|resize + normalize| C[processed_dataset/ (output images)]
-  B -->|augment (flip/rotate)| C
-```
-
 ---
 
 ## 🚀 Detailed Version Explanation
