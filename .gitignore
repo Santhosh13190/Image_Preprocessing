@@ -1,0 +1,9 @@
+# Ignore everything by default
+*
+
+# But keep these
+!.gitignore
+!preprocess_dataset.py
+!README.md
+!README
+
